@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	width: 128px;
+	height: 128px;
+}
+
+body{
+	background: #545c52;
+}
+
+header{
+	background:#F1E9DB;
+	padding: 1rem;
+}
+header >h1{
+	color: #545c52;
+	text-align: center;
+	font-family: Asap, san-serif;
+}
+
+.score-board{
+	border: 5px solid #F1E9DB;
+	width: 20%;
+	margin: 1rem auto;
+	border-radius: 5px;
+	color: #F1E9DB;
+	font-family: Asap, san-serif;
+	font-size: 2rem;
+	padding: 1rem;
+	text-align: center;
+	position: relative;
+}
+
+.tag{
+	background: #D64550;
+	font-size: 20px;
+	padding: 2px 10px;
+}
+
+#user-tag{
+	position: absolute;
+	top: 20px;
+	left: -30px;
+	border-radius: 5px;
+}
+
+#comp-tag{
+	position: absolute;
+	top: 20px;
+	right:-40px;
+	border-radius: 5px;
+}
+
+.result{
+	font-family: Asap, san-serif;
+	font-size: 3rem;
+	color: #F1E9DB;
+	text-align:center;
+	font-weight: bold;
+}
+.choices{
+	text-align: center;
+	margin-top: 30px;
+}
+.choice{
+	display: inline-block;
+	margin: 0 25px;
+	border: 10px solid #F1E9DB;
+	border-radius: 50%;
+	padding: 30px;
+	transition-property: background;
+	transition-duration: 0.2s;
+	transition-delay: 0.01s;
+	transition-timing-function: ease-in-out;
+}
+.choice:hover{
+	cursor: pointer;
+	background: rgba(139, 150, 136,0.5);
+}
+
+#action-msg{
+	text-align: center;
+	font-family: Asap,san-serif;
+	font-weight: bold;
+	color: #F1E9DB;
+	font-size: 2rem;
+	margin: 70px 0; 
+}
+
+#reset-button{
+	background-color: #D64550; 
+	font-family: Asap, san-serif;
+	font-weight: bold;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	color: #F1E9DB;
+	text-decoration: none;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+
+}
+
+#reset-button:hover{
+	cursor: pointer;
+	background-color: #db5a64;
+}
+/* Styling the borders */
+
+.green-glow{
+	border: 10px solid #ACC196;
+	box-shadow: 0 0 16px #7B9A5B;
+}
+
+.red-glow{
+	border: 10px solid #F71735;
+	box-shadow: 0 0 16px #C50720; 
+}
+
+.grey-glow{
+	border: 10px solid #BBB1BE;
+	box-shadow: 0 0 16px #806F85; 	
+}

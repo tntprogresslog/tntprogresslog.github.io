@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Rock, paper, scissors!</title>
+</head>
+<body>
+	<header>
+		<h1>Rock, Paper, Scissors!</h1>
+	</header>
+
+	<div class="score-board">
+		<div class="tag" id="user-tag">user</div>
+		<div class="tag" id="comp-tag">comp</div>
+		<span id="user-score">0</span>:<span id="comp-score">0</span>
+	</div>
+
+	<div class="result"><p>Results will show here</p></div>
+
+	<div class="choices">
+		<div id="rock" class="choice">
+			<figure>
+				<img src="imgs/rock.svg" alt="Rock">
+			</figure>
+		</div>
+		<div id="paper" class="choice">
+			<figure>
+				<img src="imgs/paper.svg" alt="Paper">
+			</figure>
+		</div>
+		<div id="scissors" class="choice">
+			<figure>
+				<img src="imgs/scissors.svg" alt="Scissors">
+			</figure>
+		</div>
+	</div>
+
+	<p id="action-msg">Make your move!</p>
+	<button id="reset-button" onclick="reset()">Reset Score</button>
+
+	<script src="js/app.js" charset="utf-8"></script>
+</body>
+</html>
