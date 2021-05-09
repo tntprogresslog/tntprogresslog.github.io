@@ -80,7 +80,7 @@ header >h1{
 	transition-delay: 0.01s;
 	transition-timing-function: ease-in-out;
 }
-.choice:hover{
+.choice:hover, .choice:focus{
 	cursor: pointer;
 	background: rgba(139, 150, 136,0.5);
 }
