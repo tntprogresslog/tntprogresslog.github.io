@@ -85,19 +85,19 @@ function main(){
 		game('rock');
 	})
 	rock_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter"||e.key==32)
+		if(e.key==="Enter")
 			game('rock');
 	paper_div.addEventListener('click',function(){
 		game('paper');
 	})
 	paper_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter"||e.key==32)
+		if(e.key==="Enter")
 			game('paper');
 	scissors_div.addEventListener('click',function(){
 		game('scissors');
 	})
 	scissors_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter"||e.key==32)
+		if(e.key==="Enter")
 			game('scissors');
 }
 
