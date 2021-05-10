@@ -101,6 +101,7 @@ function main(){
 	scissors_div.addEventListener('keypress',function(e){
 		if(e.key==="Enter")
 			game('scissors');
+	})
 }
 
 main();
