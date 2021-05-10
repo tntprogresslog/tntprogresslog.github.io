@@ -80,7 +80,7 @@ header >h1{
 	transition-delay: 0.01s;
 	transition-timing-function: ease-in-out;
 }
-.choice:hover, .choice:focus{
+.choice:hover,.choice:focus{
 	cursor: pointer;
 	background: rgba(139, 150, 136,0.5);
 }
@@ -110,7 +110,7 @@ header >h1{
 
 }
 
-#reset-button:hover{
+#reset-button:hover, #reset-button:focus{
 	cursor: pointer;
 	background-color: #db5a64;
 }
