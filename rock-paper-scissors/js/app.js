@@ -85,9 +85,8 @@ function main(){
 		game('rock');
 	})
 	rock_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter")
+		if(e.key==="Enter"||e.key=="Spacebar")
 			game('rock');
-	})
 	paper_div.addEventListener('click',function(){
 		game('paper');
 	})
