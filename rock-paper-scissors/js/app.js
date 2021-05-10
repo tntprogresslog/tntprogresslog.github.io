@@ -85,21 +85,21 @@ function main(){
 		game('rock');
 	})
 	rock_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter"||e.key==="z")
+		if(e.key==="Enter"||e.key==="z");
 			game('rock');
 	})
 	paper_div.addEventListener('click',function(){
 		game('paper');
 	})
 	paper_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter"|| e.key==="z")
+		if(e.key==="Enter"||e.key==="z");
 			game('paper');
 	})
 	scissors_div.addEventListener('click',function(){
 		game('scissors');
 	})
 	scissors_div.addEventListener('keypress',function(e){
-		if(e.key==="Enter"|| e.key==="Z")
+		if(e.key==="Enter"||e.key==="z");
 			game('scissors');
 	})
 }
